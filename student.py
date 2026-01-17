@@ -1,8 +1,9 @@
 class Student:
-    name = "John Doe"
-    age = 20
+    # same for every instance of the class
+    college="ABC University"
 
     def __init__(self, name, age):
+        # unique to each instance
         self.name = name
         self.age = age
 
