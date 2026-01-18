@@ -14,3 +14,5 @@ class Student:
 if __name__ == "__main__":
     student = Student("Alice", 22)
     print(student.greet())
+    del student
+    print("Student object has been deleted.")
